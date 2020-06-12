@@ -17,56 +17,45 @@
     <!-- fontsawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" href="Assets/fontawesome/css/all.min.css"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
     <title>Sharon's Portfolio</title>
 </head>
 <body>
 
   <header>
-    <div class="icon">
-      <i class="fa fa-github" style="font-size: 70px;"></i>
+    <div class="container-fluid">
+    <div class="icon col-sm-12 col-lg-3 order-lg-last">
+      <i class="fa fa-github gi" style="font-size: 70px;"></i>
     </div>
     <div class="icon">
-      <a><i class="fa fa-linkedin-in" style="font-size: 60px;"></i></a>
+      <a><i class="fa fa-linkedin gi" style="font-size: 60px;"></i></a>
     </div>
     <div class="icon">
-      <a><i class="fa fa-envelope" style="font-size: 60px;"></i></a>
+      <a><i class="fa fa-envelope gi" style="font-size: 60px;"></i></a>
     </div>
     <div class="icon">
-      <a><i class="fa fa-phone" style="font-size: 60px;"></i></a>
+      <a><i class="fa fa-phone gi" style="font-size: 60px;"></i></a>
     </div>
+
     <div class="menu-icon icon">
-      <a><i class="fa fa-bars" style="font-size: 60px;"></i></a>
+      <i class="fa fa-bars" style="font-size:60px;cursor:pointer" onclick="openNav()"></i>
     </div>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times icon"style="font-size: 60px;"></i></a>
+      <div class="overlay-content">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about me">about me</a>
+        <a class="nav-link" href="#journey">journey</a>
+        <a class="nav-link" href="#resume">resume</a>
+        <a class="nav-link" href="#get in touch">get in touch</a>
+
+      </div>
+    </div>
+    
   </header>
 
-  <div class="hide">
-    <div class="close">
-      <a><i class="fas fa-times"style="font-size: 60px;"></i></a>
-    </div>
 
-    <!-- Links -->
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#home">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about me">about me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#journey">journey</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#resume">resume</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#get in touch">get in touch</a>
-      </li>
-    </ul>
-  </div>
-
-        
-    
 
     <h1 class="sha mt-3" style="text-align: center;">SHARON</h1>
     <br><br><br>
@@ -128,12 +117,14 @@
       <br><br><br><br><br>
       
       <div class="row no-gutters">
-        <div class="col-3">
+        <div class="col-sm-3 col-xl-2">
         <img class=" imgADA" src="assets/images/ADA logo.png" alt="ADA logo">
-        <div class="boxO">in <br> CONTACT <br> ADA</div>
+        <div class="boxO">
+          <br>
+          <h2 class="tt"> <strong></strong>  in </strong><br> CONTACT <br> ADA</h2></div>
         </div>
 
-        <div class="col-8">
+        <div class="col-sm-8 col-xl-4">
           <div class="card-body">
             <h2 class="card-text" style="font-size:2em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis optio rem eius fugiat ipsa neque itaque nesciunt laboriosam provident nam? Quidem voluptates libero magni fugit nisi reprehenderit ipsum eveniet vitae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, voluptates quod deleniti  <br>-ADA</h2>
           </div>
@@ -142,12 +133,12 @@
       <br><br><br><br><br>
 
       <div class="row no-gutters">
-        <div class="col-3">
+        <div class="col-sm-3 col-xl-2">
         <img class=" imgADA" src="Assets/images/Laura.jpg" alt="Laura's image">
-        <div class="boxO">in <br> CONTACT <br> LAURA</div>
+        <div class="boxO"><h2 class="tt"><strong> in</strong> <br> CONTACT <br> LAURA</h2></div>
         </div>
 
-        <div class="col-8">
+        <div class="col-sm-8 col-xl-4">
           <div class="card-body">
             <h2 class="card-text" style="font-size:2em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis optio rem eius fugiat ipsa neque itaque nesciunt laboriosam provident nam? Quidem voluptates libero magni fugit nisi reprehenderit ipsum eveniet vitae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis,  <br>-Laura Seal</h2>
           </div>
@@ -156,12 +147,12 @@
       <br><br><br><br><br>
 
       <div class="row no-gutters">
-        <div class="col-3">
+        <div class="col-sm-3 col-xl-2">
         <img class=" imgADA" src="Assets/images/Andrea1.jpg" alt="Andrea's image">
-        <div class="boxO">in <br> CONTACT <br> ANDREA</div>
+        <div class="boxO"><h2 class="tt"><strong> in </strong><br> CONTACT <br> ANDREA</h2></div>
         </div>
 
-        <div class="col-8">
+        <div class="col-sm-8 col-xl-4">
           <div class="card-body">
             <h2 class="card-text" style="font-size:2em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis optio rem eius fugiat ipsa neque itaque nesciunt laboriosam provident nam? Quidem voluptates libero magni fugit nisi reprehenderit ipsum eveniet vitae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, voluptates quod  <br>-Andrea Hayes</h2>
           </div>
@@ -169,12 +160,12 @@
       </div>
       <br><br><br><br><br>
       <div class="row no-gutters">
-        <div class="col-3">
+        <div class="col-sm-3 col-xl-2">
         <img class=" imgADA" src="assets/images/Kate1.jpg" alt="Kate's image">
-        <div class="boxO">in <br> CONTACT <br> KATE</div>
+        <div class="boxO"> <h2 class="tt"> <strong> in</strong> <br> CONTACT <br> KATE</h2></div>
         </div>
 
-        <div class="col-8">
+        <div class="col-sm-8 col-xl-4">
           <div class="card-body">
             <h2 class="card-text" style="font-size:2em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis optio rem eius fugiat ipsa neque itaque nesciunt laboriosam provident nam? Quidem voluptates libero magni fugit nisi reprehenderit ipsum eveniet vitae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, voluptates quod deleniti repellendus totam  <br>-Kate Marsay</h2>
           </div>
@@ -191,17 +182,29 @@
 
 
 
-        <form action="/action_page.php">
+      <form action="/action_page.php">
+
+        <div class="form-group mt-5">
+        <!-- <label for="email">your name</label> -->
+        <input class="write" type="text" id="fname" name="firstname" placeholder="Your name">
+        </div>
     
-          <input class="write mt-5" type="text" id="fname" name="firstname" placeholder="Your name...">
       <br>
-          
-          <input class="write mt-5" type="text" id="lname" name="lastname" placeholder="Your last name...">
+      <div class="form-group mt-5">
+        <!-- <label for="email">your e-mail</label> -->
+        <input class="write" type="text" id="email" name="msg" placeholder="Your e-mail">
+      </div>
       
-          <br>
+      <br>
+
+      <div class="form-group mt-5">
+        <!-- <label for="email">your e-mail</label> -->
+        <input class="text" type="text" id="email" name="" placeholder="Your e-mail...">
+      </div>
+        <!-- <div class="form-group text mt-5">
+        <input type="msg" class="form-control" placeholder="your message" id="msg">
           
-          <input class="text mt-5" type="text" id="Tname" name="Title" placeholder="Type your Title  ...">
-    
+        </div> -->
 
         <button class="but3" type="submit"><p style="font-size: 3em; color: white;">send!</p></button>
       </form>
@@ -214,7 +217,7 @@
         <i class="fa fa-github" style="font-size: 70px;"></i>
       </div>
       <div class="icon">
-        <a><i class="fa fa-linkedin-in" style="font-size: 60px;"></i></a>
+        <a><i class="fa fa-linkedin" style="font-size: 60px;"></i></a>
       </div>
       <div class="icon">
         <a><i class="fa fa-envelope" style="font-size: 60px;"></i></a>
@@ -224,7 +227,8 @@
       </div>
   
     <br><br>
-    <p>copyright 2020, made by</p> <p class="ft">Full Name</p>
+    <p class="ff">copyright 2020, made by <strong class="ft">Full Name</strong></p>
+      <br><br><br><br>
   </footer>
 
     <!-- <div class="logo">

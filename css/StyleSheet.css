@@ -7,6 +7,15 @@ body{
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+p{
+    font-weight: 300;
+}
+h1{
+    font-weight: 300;
+}
+h2{
+    font-weight: 500;
+}
 
 hr{
     background-color: white;
@@ -17,6 +26,54 @@ header {
     padding: 30px;
 }
 
+/* navbar functionality */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    /* z-index: 1; */
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: darkgrey;
+    display: block;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+/* header section */
 .icon {
     display: inline-block;
     text-align: center;
@@ -24,10 +81,15 @@ header {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    border: solid 2px white;
+    border: solid 5px white;
     font-size: 30px;
     padding-top:10px;
     margin: 10px;
+    
+}
+
+.gi{
+    z-index: 1;
 }
 
 .menu-icon{
@@ -35,45 +97,6 @@ header {
     float: right; 
 }
 
-
-
-.git{
-    position: relative;
-    margin-top: 1.5em;
-    left: 1em;
-    border: 5px solid white;
-    border-radius: 50%;
-    width: 1.5em;
-    height: 1.5em;
-  }
-  
-  .link{
-    position: relative;
-    left: 1.5em;
-    border: 5px solid white;
-    border-radius: 50%;
-    width: 1.5em;
-    height: 1.5em;
-    
-  }
-  
-  .msg{
-    position: relative;
-    left: 2.5em;
-    border: 5px solid white;
-    border-radius: 50%;
-    width: 1.5em;
-    height: 1.5em;
-  }
-  
-  .phone{
-    position: relative;
-    left: 4em;
-    border: 5px solid white;
-    border-radius: 50%;
-    width: 1.5em;
-    height: 1.5em;
-  }
 
   .bar{
     position: relative;
@@ -254,7 +277,11 @@ header {
     margin: auto;
     margin-left: 6em;
     margin-top: 0.5em;
- }
+}
+
+.tt{
+    text-align: center;
+}
 
  .block4{
     background: rgba(43, 40, 40, 0.925);
@@ -285,7 +312,7 @@ header {
      text-align: justify;
      width: 70vw;
  }
-
+/* footer section */
  .foot{
      text-align: center;
      
@@ -295,6 +322,12 @@ header {
  .ft{
      color: orangered;
  }
+
+ .ff{
+     font-size: 2em;
+
+ }
+
  /* .navbar{
      float: right;
  } */
@@ -354,6 +387,30 @@ header {
  }
 /* --------------------------------------------------------------Extra large devices landscape */
  @media (min-width: 1200px) and (orientation: landscape) { 
+
+  
+    .icon {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    /* /* width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: solid 5px white;
+    padding-top:10px;
+    margin: 10px; */
+    position: relative;
+    left: 27em; 
+    top: 15px;
+    
+}
+
+.menu-icon{
+
+    display: none; 
+    }
+
+    
      /* general classes */
      /* .tablet-only{
          display: none;
