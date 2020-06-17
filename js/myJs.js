@@ -21,3 +21,12 @@ function openNav() {
   function closeNav() {
     document.getElementById("myNav").style.width = "0%";
   }
+
+const tel = document.querySelector('.tel');
+
+tel.addEventListener('click', (e) => {
+  if(window.innerWidth > 1000){
+    e.preventDefault();
+    alert('my phone number is')
+  }
+})

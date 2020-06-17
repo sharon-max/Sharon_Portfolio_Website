@@ -14,12 +14,13 @@ p{
 }
 h1{
     font-weight: 300;
-
 }
 h2{
     font-weight: 500;
 }
-
+h2.grt1{
+    font-weight: 200;
+}
 hr{
     background-color: white;
 }
@@ -152,10 +153,9 @@ hr{
 
 
  .sha{
-     position: relative;
      color: orangered;
      font-size: 5em;
-     top: 0.5em;
+     margin-top: 40px;
  }
 
  .bb{
@@ -166,7 +166,7 @@ hr{
  .line{
      color: white;
      border-top: 3px solid white;
-     margin: 30px;
+     margin: 0 30px;
  }
 
  .hide{
@@ -437,7 +437,10 @@ hr{
  }
 /* --------------------------------------------------------------Extra large devices landscape */
  @media (min-width: 1200px) and (orientation: landscape) { 
-
+    /* general styles */
+    .container-fluid{
+        padding: 0 100px;
+    }
     .icon {
         float: right;
         font-size: 15px;
@@ -461,7 +464,7 @@ hr{
     }
 
     .sha{
-        padding-top: -15em;
+        margin-top: 0;
         color: orangered;
         font-size: 1.8em;
         text-align: center;
@@ -473,8 +476,8 @@ hr{
 
     .line{
         color: white;
-        border-top: 0.5px solid white;
-        padding-bottom: 2em;
+        border-top: 1px solid white;
+        opacity: 0.8;
         
     }
 
