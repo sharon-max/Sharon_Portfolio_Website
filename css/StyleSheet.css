@@ -1,36 +1,62 @@
 body{
     background-color: black;
     color: white;
-    /* font-family: monospace;
-    font-size: 1.5em; */
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
+    font-size: 1em;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 p{
     font-weight: 300;
-    font-size: 14px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 h1{
     font-weight: 300;
 }
+
 h2{
     font-weight: 500;
 }
 h2.grt1{
     font-weight: 200;
 }
+
 hr{
-    background-color: white;
+    width: 90%;
+    border-top: 3px white solid;
+    opacity: 0.7;
 }
 
-/* section divider */
+form{
+    margin-left: 2em;
+}
 
-.block{
+.dark-grey{
+    background: #333333;
+}
+
+/* section divider and general classes  */
+
+/* .block{
     background: rgba(43, 40, 40, 0.925);
-    width: 100vw;
+ } */
+
+ .btn{
+    height: 8em;
+    width: 40em;
+    /* margin-left: 11em; */
+    border-radius: 20em;
  }
+
+ .about{
+    color: orange;
+    text-align: center;
+    font-size: 4em;
+}
 
 /* ----Start Spacing / Layout Styling---- */
 .padding-top-10
@@ -44,6 +70,8 @@ hr{
 }
 /* ----End Spacing / Layout Styling---- */
 
+/* start header section */
+/* Start social media icons */
 
 .hide-on-mobile{
     display: none;
@@ -54,66 +82,6 @@ hr{
     float: right; 
 }
 
-
-
-/* .row{
-    display: inline-block;
-} */
-
-
-/* header {
-    width: 100vw;
-    padding: 30px;
-} */
-
-/* navbar mobile styling */
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 59;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-  }
-  
-  .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: darkgrey;
-    display: block;
-  }
-  
-  .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-  }
-  
-  .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-    }
-  }
-/* header section */
 .icon {
     display: inline-block;
     text-align: center;
@@ -136,31 +104,63 @@ hr{
     color: white;
 }
 
-/* .gi{
-    z-index: 1;
-} */
+/* End social media icons */
 
-  /* .bar{
+/* navbar mobile styling */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 59;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+  }
+  
+  .overlay-content {
     position: relative;
-    left: 14.5em;
-    float: left;
-    bottom: 1em;
-    border: 6px solid white;
-    border-radius: 50%;
-    width: 1.5em;
-    height: 1.5em;
-  } */
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
 
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 60px;
+    color: white;
+    display: block;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 30px;
+    right: 45px;
+    font-size: 70px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
 
+  /* end header section */
+/* start name  and line */
  .sha{
      color: orangered;
      font-size: 5em;
      margin-top: 40px;
- }
-
- .bb{
-    height: 60vh;
-    margin: auto;
  }
 
  .line{
@@ -169,18 +169,9 @@ hr{
      margin: 0 30px;
  }
 
- .hide{
-     background: grey;
-     display: block;
-     text-align: center;
-     color: white;
-     height: 100%
- }
+ /* end name  and line */
 
- /* .grt{
-     font-size: 20em;
-     float: left;
- } */
+ /* start intro section */
 
  .grt{
      font-size: 1em;
@@ -207,16 +198,26 @@ hr{
 
  }
 
+ .arrow{
+    display: none;
+}
+
+ /* end intro section */
+
+ .hide{
+    background: grey;
+    display: block;
+    text-align: center;
+    color: white;
+    height: 100%
+}
+
  .Desktop{
      display: none;
  }
 
  /* start about me section */
- .about{
-     color: orange;
-     text-align: center;
-     font-size: 4em;
- }
+
  .greyb{
     background: rgba(128, 121, 121, 0.712);
     width: 50vw;
@@ -225,59 +226,46 @@ hr{
  }
 
  .imgS{
-     
-     width: 50vw;
-     height: 25vh;
-     float: right;
-     margin-top: 3em;
-     margin-right: -3em;
-     border: 5px solid white;
-     color: white;
-     
+    width: 50vw;
+    height: 25vh;
+    float: right;
+    margin-top: 3em;
+    margin-right: -3em;
+    border: 5px solid white;
+    color: white; 
  }
 
  .me{
-     position: absolute;
-     text-align: justify;
-     font-size: 2em;
-     width: 70vw;
+    position: absolute;
+    text-align: justify;
+    font-size: 2em;
+    width: 70vw;
+ }
+ 
+ .but1{
+    background-color: rgba(235, 73, 14, 0.877);
+    margin-top: 58em;
+    margin-left: 11em;
  }
 
  /* End about me section  */
 
+ /* start graduate section */
 
- .b1{
-    height: 118vh;
-    margin: auto;
-    
- }
-
- .btn{
-    height: 8em;
-    width: 40em;
-    margin-left: 11em;
-    border-radius: 20em;
- }
-
- .but1{
-    background-color: rgba(235, 73, 14, 0.877);
-     margin-top: 58em;
- }
-
- .b2{
-    height: 117vh;
-    margin: auto;
-    
- }
+ .me1{
+    text-align: justify;
+    font-size: 2.5em;
+    width: 70vw;
+    margin-left: 4em;
+}
 
  .imgA{
-     width: 50vw;
-     height: 25vh;
-     margin-left: 16em;
+    width: 50vw;
+    height: 25vh;
  }
 
  .butto{
-     margin-top: 40em;
+     margin-top: 7em;
  }
 
  .but2{
@@ -297,13 +285,28 @@ hr{
      height: 8em;
  }
 
- .block3{
-    background: rgba(43, 40, 40, 0.925);
-    width: 100vw;
-    height: 160vh;
-    margin: auto;
-    
- }
+ /* end graduate section */
+
+ /* start testimonial section */
+
+ .testimonial-img{
+    width: 100%;
+}
+
+.orange-block{
+    background: #eb5e28;
+    height: 20em;
+}
+
+.orange-block p{
+    font-size: 2.3em;
+}
+
+.orange-block a i{
+    margin-top: 2em;
+    color: white;
+    font-size: 2.5em;
+}
 
  .imgADA{
      margin-left: 6em;
@@ -316,48 +319,100 @@ hr{
      margin-top: -1.5em;
  }
 
- .boxO{
-    background: orangered;
-    width: 26vw;
-    height: 13vh;
-    margin: auto;
-    margin-left: 6em;
-    margin-top: 0.5em;
-}
-
 .tt{
-    text-align: center;
-}
+    text-align: justify;
+    width: 70vw;
+    margin-left: 12vw;
 
- .block4{
-    background: rgba(43, 40, 40, 0.925);
-    width: 100vw;
-    height: 100vh;
-    margin: auto;
-    
- }
+}
 
  .write{
      width: 70vw;
-     height: 6vh;
-     margin-left: 15vw;
+     margin-left: 10vw;
      background: grey;
      border: solid lightgrey 3px;
  }
 
  .text{
     width: 70vw;
-    height: 18vh;
-    margin-left: 15vw;
+    margin-left: 10vw;
     background: grey;
     border: solid lightgrey 3px;
  }
+.write input{
+    background-color: grey;
+    height: 5vh;
+    font-size: 2em;
+}
+.text textarea{
+    background-color: grey;
+    font-size: 2em;
+}
+.write ::placeholder{
+    color: white;
+}
+.text ::placeholder{
+    color: white
+}
 
- .touch{
-     margin-left: 15vw;
-     text-align: justify;
-     width: 70vw;
+.but4{
+    background-color: orangered;;
+    margin-left: 10em;
+    border-radius: 20em;
+    height: 8em;
  }
+ 
+
+  /* testimonals section */
+.TestimonalsDiv{
+    width: 90vw;
+    height: 235vh;
+    margin: auto;
+    text-align: center;
+    background: rgb(41, 40, 40); 
+  }
+  .card{
+    background: rgb(41, 40, 40); 
+    border-radius: 0;
+    border-width: 0;
+  }
+.TestimonalsHeading{
+      margin-top: 15px;
+      font-weight: 400;
+      opacity: 1;
+  }
+  .TestimonalsContent{
+      font-size: 14px;
+      font-weight: 250;
+      line-height: 18px;
+      text-align: justify;
+      text-size-adjust: 2px;
+    
+  }
+  .TestimonalsContactText{
+      font-size: 16px;
+      text-align: center;
+  }
+  .TestimonalsDivs{
+    margin-bottom: 20px;
+}
+  .ContactDiv{
+      width: 100%;
+      height: 8%;
+      background-color:#eb5e28 ;
+      color: white;
+  }
+  a{
+    color: white;
+  }
+  a:hover{
+      color:#f7931e;
+  }
+  .TestimonalImage{
+    width: 100%;
+    height: 20vh;
+  }
+
 /* footer section */
  .foot{
      text-align: center;
@@ -370,34 +425,10 @@ hr{
  }
 
  .ff{
-     font-size: 2em;
+     font-size: 1.5em;
 
  }
 
- .arrow{
-     display: none;
- }
-
- /* .navbar{
-     float: right;
- } */
-
-  /* .menu{
-      display: none;
-  } */
-/* general classes */
-/* .hide-on-mobile{
-    display: none;
-} */
-
-/* header section */
-/* .block{
-    width: 90vw;
-    height: 60vh;
-    margin: auto;
-    text-align: center;
-    background: gray;
-} */
 
 /* --------------------------------------------------------------media queries */
 
@@ -429,14 +460,32 @@ hr{
 
 /* // --------------------------------------------------------------Large devices (ipad pro) */
 @media (min-width: 992px) { 
+    .show-on-desktop {
+        display: block;
+    }
+    .hide-on-desktop {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .social-icons {
+        text-align: right;
+    }
+}
     
- }
-
 /* // --------------------------------------------------------------Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
  }
 /* --------------------------------------------------------------Extra large devices landscape */
  @media (min-width: 1200px) and (orientation: landscape) { 
+    .hide-on-desktop{
+        display: none;
+    }
+
+    .show-on-desktop{
+        display: block;
+    }
     /* general styles */
     .container-fluid{
         padding: 0 100px;
@@ -474,12 +523,36 @@ hr{
         display: block;
     }
 
-    .line{
-        color: white;
-        border-top: 1px solid white;
-        opacity: 0.8;
-        
-    }
+ /* start about me section */
+ 
+ .greyb{
+    background: rgba(128, 121, 121, 0.712);
+    
+ }
+
+ .imgS{
+    width: 50vw;
+    height: 25vh;
+    float: right;
+    margin-top: 3em;
+    margin-right: -3em;
+    border: 5px solid white;
+    color: white; 
+ }
+ 
+ .but1{
+    background-color: rgba(235, 73, 14, 0.877);
+    margin-left: 50em;
+    height: 6vh;
+    width: 12vw;
+ }
+
+ .card-body{
+     text-align: justify;
+    
+ }
+
+ /* End about me section  */
 
     .menu-icon{
 
@@ -540,43 +613,34 @@ hr{
 
     }
 
-    .block{
-        background: rgba(43, 40, 40, 0.925);
-        width: 90vw;
-        height: 60vh;
-        margin: auto;
-     }
-    
-
-     .but1{
-        display: none;
-     }
+     /* .but1{
+       
+     } */
 
      /* start about me section */
 
-     .block1{
-        background: rgba(43, 40, 40, 0.925);
-        height: 80vh;
-     }
 
     .about{
-        margin-left: 10em;
+        margin-left: 20em;
         font-size: 2em;
+        padding-bottom: 6em;
+        height: 1em;
+        width: 8em;
     }
 
     .greyb{
         background: rgba(128, 121, 121, 0.712);
-        width: 20vw;
-        height: 40vh;
+        width: 15vw;
+        height: 30vh;
         margin: auto;
-        margin-top: -9em;
-        margin-right: 1em;
+        margin-top: -17em;
+        margin-right: 10em;
     }
 
     .imgS{
     
-        width: 20vw;
-        height: 40vh;
+        width: 15vw;
+        height: 30vh;
         margin-top: 3em;
         margin-right: -3em;
         border: 2px solid white;
@@ -589,6 +653,8 @@ hr{
         text-align: justify;
         font-size: 14px;
         bottom: -1em;
+        padding-bottom: 6em;
+        left: -3em;
     } 
 
 
@@ -612,6 +678,12 @@ hr{
         color:#f7931e;
     }
 
+    hr{
+        width: 100%;
+        border-top: 1px white solid;
+        opacity: 0.7;
+    }
+
 
     .Desktop{
     display: block;
@@ -621,11 +693,58 @@ hr{
     display: none;
     }
 
-    /* graduate section */
+     /* start graduate section */
 
-    .hide-on-desktop{
-        display: none;
-    }
+ .me1{
+    font-size: 1em;
+    margin-left: 40em;
+}
+
+ .imgA{
+    width: 20vw;
+    height: 40vh;
+    margin-left: 10em;
+    position: relative;
+    bottom: 120px; 
+ }
+
+ .about{
+    position: relative;
+    right: 6em;
+ }
+
+ .butto{
+    margin-left: 40em;
+ }
+
+ .but2{
+    background-color: rgb(145, 141, 141);
+    /* padding-top: 2em; */
+    /* margin-left: 12em; */
+    border-radius: 20em;
+    height: 8em;
+    width: 38em;
+    font-size: 5px;
+ }
+
+ .but3{
+    background-color: orangered;
+    margin-top: 3em;
+    margin-left: 12em;
+    border-radius: 20em;
+    height: 7em;
+    font-size: 6px;
+    width: 38em;
+
+ }
+
+ /* end graduate section */
+
+
+ 
+.testimonial{
+    padding: 5%;
+}
 
     /* end about me section */
 
@@ -662,6 +781,44 @@ hr{
       .nav .menu-icon {
         display: none;
       } */
+
+      .TestimonalsDiv{
+        width: 86vw;
+        height: 100vh;
+      }
+      .TestimonalsHeading{
+        font-weight: 300;
+        text-align: center;
+        font-size: 2em;
+        width: 20vw;
+        margin-top: 8vh;
+    }
+    .TestimonalImage{
+        width: 10vw;
+        height: 15vh;
+      }
+      .ContactDiv{
+        width: 10vw;
+        height: 15vh;
+    }
+    .lectureImages{
+        width: 10vw;
+        height: 15vh;
+      }
+      .TestimonalsContent{
+        margin-left: -15vw;
+        width: 20vw;
+       
+     }
+     .firstColums{
+         margin-left: -10vw;
+     }
+     .firstColumsText{
+        margin-left: -20vw;
+    }
+     .secondColums{
+        transform: translate(30vw,-80vh);
+    }
  }
 
  /* --------------------------------------------------------------Internet Explorer */

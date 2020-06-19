@@ -27,6 +27,6 @@ const tel = document.querySelector('.tel');
 tel.addEventListener('click', (e) => {
   if(window.innerWidth > 1000){
     e.preventDefault();
-    alert('my phone number is')
+    alert('my phone number is 0729957954')
   }
 })
