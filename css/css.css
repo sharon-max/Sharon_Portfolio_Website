@@ -1,0 +1,436 @@
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: white;
+}
+  
+ 
+html{
+    overflow-x: hidden;
+ }
+ 
+ 
+/* Fonts */
+
+
+h1{
+    color: #96f7d2;
+    text-transform: uppercase;
+    
+}
+
+h1.tagline{
+    color: white;
+    margin:0;
+    font-size: 8em;
+}
+
+span.lightgrey{
+    color: #808080;
+}
+
+p.tag{
+    color:#96f7d2;
+}
+
+p{
+    color: white;
+}
+.dark-grey{
+    background: #333333;
+}
+ 
+.hide-on-mobile{
+    display: none;
+}
+
+.button{
+    background-color: orange;
+    border-radius: 80px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 80vw;
+  }
+/* icons */
+
+.icon{
+    display: inline-block;
+    font-size: 22px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.icon a{
+    color: white;
+}
+
+.icon.mobile{
+    float: right;
+    color: white;
+}
+
+ 
+/* header: name and hr */
+
+hr{
+   width: 100%;
+   border-top: 1px white solid;  
+   opacity: 0.7  ;
+}
+ 
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+}
+
+.overlay .icon{
+    float: right;
+    color: white;
+}
+
+.overlay-content ul{
+    list-style: none;
+    font-size: 2em;
+    font-weight: 700;
+ }
+
+.overlay-content a{
+     color: white;
+     line-height: 2em;
+}
+
+.overlay-content a.active{
+    color: #96f7d2;
+}
+  
+.Desktop{
+   display: none;
+}
+
+.profile-image{
+    box-shadow: -20px -20px gray;
+    border: 4px solid white;
+}
+
+ /* about section */
+ .name{
+    color:#96f7d2 ;
+    color: #00bdaa;
+}
+
+.namee{
+    position: relative;
+    bottom: 50px;
+    display: block;
+    color:#96f7d2;
+}
+
+
+/* i am an ada graduate  section*/
+.graduate{
+    color:#96f7d2 ;
+ }
+ 
+ 
+/* testimonals section */
+ 
+.testimonial-img{
+    width: 100%;
+}
+
+.orange-block{
+    background: #00bdaa;
+}
+
+.orange-block a i{
+    color: white;
+    font-size: 30px;
+}
+
+ 
+/* menu */
+
+.menu{
+     margin-left:40vw ;
+     margin-top:-23vh ;
+}
+
+
+ /* get in touch */
+
+.getintouch{
+    color: #96f7d2;
+}
+
+
+
+
+ ::placeholder {
+    color: white;
+}
+
+#fname{
+    background: white;
+    height: 5vh;
+    width: 80vw;
+    background-color: grey;
+}
+
+#email{
+    background-color: gray;
+    height: 5vh;
+    width: 80vw;
+}
+
+#message{
+    background: gray;
+    height: 25vh;
+    width: 80vw;
+
+}
+
+/* footer */
+.madename{
+    color: #96f7d2;
+}
+
+.footer-icons{
+    text-align: center;
+
+}
+
+.copyright{
+    text-align: center;
+}
+
+
+/* reusme page */
+.headings{
+  font-weight: bold;
+}
+
+.mt-12{
+    color:#96f7d2 ;
+}
+
+ @media (min-width: 576px) and (orientation: landscape) { 
+  
+   
+ }
+ 
+ /* // --------------------------------------------------------------Medium devices (tablets) */
+ @media (min-width: 768px) {
+     .block{
+         
+         height: 30vh;
+ 
+     }
+ }
+ 
+ /* // --------------------------------------------------------------Large devices (ipad pro) */
+ @media (min-width: 992px) { 
+ 
+.show-on-desktop{
+    display: block;
+}
+
+.hide-on-desktop{
+    display: none;
+}
+
+.menu{
+    display: none;
+}
+
+.social-icons{
+     text-align: right;
+ }
+ 
+    
+ }
+   @media screen and (min-width: 1200px) {
+     /* html{
+         overflow: hidden;
+     } */
+ 
+/* icons */
+.icons{
+     text-align: right;
+}
+ 
+#myNav{
+     display: none;
+}
+
+ul.desktop-nav{
+    list-style: none;
+}
+
+ul.desktop-nav li{
+    display: inline-block;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+ul.desktop-nav li a{
+     color: white;
+}
+
+ul.desktop-nav li a.active{
+    
+     color:#96f7d2 ;
+
+}
+ 
+ 
+.Desktop{
+     display: block;
+     color: white;
+}
+
+.mobile{
+     display: none;
+}
+
+.dots{
+         display: none;
+}
+    
+.combined{
+      position: relative;
+      left: 1300px;
+      bottom: -60px;
+}
+ 
+.myName{
+   text-align: center;
+}
+ 
+/* .block{
+     width: 90vw;
+     height:50vh;
+     position: relative;
+     bottom: 30vh;
+     left: 80px;    
+} */
+
+p{
+     text-align: left;
+}
+ 
+button-mobile{
+    display: none;
+}
+.button{
+    position: relative;
+    width: 15vw;
+    height: 7vh;
+}
+.button-journey{
+    background: grey;
+}
+
+/* .orangebox {
+     text-align: center;
+     width: 90px;
+     height: 90px;
+    background:#96f7d2 ;
+    
+} */
+
+/* about section */
+
+.about{
+   
+    color:#96f7d2 ;
+    display: flex;
+     position: relative;
+     left: 700px;
+}
+
+
+/* i am an dad graduate */
+
+
+
+
+/* testimonals section */
+  
+
+.testimonial{
+      padding: 5%;
+}
+
+ /* get in touch */
+ 
+.getintouch{
+    
+    color:#96f7d2 ;
+
+}
+
+.Get-in-touch {
+   height: 120vh;
+}
+
+::placeholder {
+   color: white;
+}
+
+#fname{
+   background: white;
+   height: 5vh;
+   width: 50vw;
+   background-color: grey;
+}
+
+#email{
+   background-color: gray;
+   height: 5vh;
+   width: 50vw;
+}
+
+#message{
+   background: gray;
+   height: 25vh;
+   width: 50vw;
+}
+ 
+.butto{
+    
+        margin-top: 10vh;
+        text-align: center;
+    }
+
+
+/* resume */
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    color:#96f7d2 ;
+    
+}
+
+}
+ 
+ /* @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){} } */
