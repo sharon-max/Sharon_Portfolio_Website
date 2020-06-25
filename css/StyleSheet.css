@@ -107,9 +107,6 @@ hr{
     margin-left: 10px; 
     /* margin: 10px; */
 }
-.all-icons{
-    z-index: 100;
-}
 
 .icon a{
     color: white;
@@ -226,8 +223,6 @@ hr{
 
  .imgS{
     width: 50vw;
-    height: 25vh;
-    float: right;
     margin-top: 3em;
     margin-right: -3em;
     border: 5px solid white;
@@ -257,7 +252,6 @@ hr{
 
  .imgA{
     width: 50vw;
-    height: 25vh;
  }
 
  /* .butto{
@@ -279,6 +273,9 @@ hr{
  /* end graduate section */
 
  /* start testimonial section */
+ .testimonial{
+     padding: 5%;
+ }
 
  .testimonial-img{
     width: 70%;
@@ -287,7 +284,7 @@ hr{
 .orange-block{
     background: #eb5e28;
     height: 250px;
-    width: 267px;
+    width: 70%;
 }
 
 /* .orange-block p{
@@ -303,11 +300,6 @@ hr{
     margin-top: 30px;
 }
 
- /* .imgADA{
-     margin-left: 6em;
-     width: 26vw;
-     height: 13vh;
- } */
 
  .card-body{
      margin-left: 9em;
@@ -322,39 +314,25 @@ hr{
 }
 
 form{
-    margin-left: 2em;
     border: none;
 }
 
- .write{
-     width: 70vw;
-     margin-left: 10vw;
-     background: grey;
-     border: solid lightgrey 3px;
+ .form-group{
+     border: solid lightgrey 1px;
+     border-radius: 0;
  }
-
- .text{
-    width: 70vw;
-    margin-left: 10vw;
-    background: grey;
-    border: solid lightgrey 3px;
- }
-.write input{
+ .form-group input,.form-group textarea {
     background-color: grey;
-    height: 5vh;
-    font-size: 2em;
+    border-radius: 0;
+    color: white;
 }
-.text textarea{
+.form-group input::placeholder, .form-group textarea::placeholder {
+    color: white;
+}
+.form-group input:focus,.form-group textarea:focus {
     background-color: grey;
-    font-size: 2em;
-}
-.write ::placeholder{
-    color: lightgrey;
-    font-size: 0.5em;
-}
-.text ::placeholder{
-    color: lightgrey;
-    font-size: 0.5em;
+    border-radius: 0;
+    color: white;
 }
 
   /* testimonals section */
@@ -533,11 +511,7 @@ form{
 
   
   .imgS{
-    
     width: 15vw;
-    height: 30vh;
-    margin-top: 3em;
-    margin-right: -3em;
     border: 2px solid white;
     color: white; 
 }
@@ -682,8 +656,7 @@ form{
 }
 
  .imgA{
-    width: 18vw;
-    height: 36vh;
+    width: 15vw;
  }
 
  .butto{
@@ -718,13 +691,17 @@ form{
 
       /*start testimonial section*/
       .testimonial{
-        padding: 5%;
+        padding: 2%;
+        }
+        .testimonial-row{
+            padding: 10px 200px;
         }
     
       .TestimonalsDiv{
         width: 86vw;
         height: 100vh;
       }
+
       .TestimonalsHeading{
         font-weight: 300;
         text-align: center;
@@ -739,7 +716,7 @@ form{
     .orange-block{
         background: #eb5e28;
         height: 150px;
-        width: 161px;
+        width: 100%;
     }
     
     /* .orange-block p{
