@@ -68,7 +68,7 @@
         <a class="nav-link" href="aboutMe.html">about me</a>
         <a class="nav-link" href="myJourney.html">journey</a>
         <a class="nav-link" href="resume.html">resume</a>
-        <a class="nav-link" href="getInTouch.html">get in touch</a>
+        <a class="nav-link" href="getInTouch.html" class="active">get in touch</a>
       </div>
     </div>
   </div>
@@ -80,11 +80,11 @@
     <div class="row">
       <div class="col-12 text-center">
         <ul class="desktop-nav">
-          <li><a href="index.html" class="active">home</a></li>
-            <li><a href="aboutMe.html">about</a></li>
-            <li><a href="myJourney.html">journey</a></li>
-            <li><a href="resume.html">resume</a></li>
-            <li><a href="getInTouch.html">get in touch</a></li>
+          <li><a href="http://127.0.0.1:5500/index.html" >home</a></li>
+            <li><a href="http://127.0.0.1:5500/aboutMe.html">about</a></li>
+            <li><a href="#">journey</a></li>
+            <li><a href="#">resume</a></li>
+            <li><a href="#" class="active">get in touch</a></li>
           </ul>
         </ul>
       </div>
@@ -92,13 +92,46 @@
   </div>
 <!-- End desktop navbar links -->
 
+<!-- start get in touch section -->
+
+ 
+    <div class="container dark-grey col-12 col-xl-12 py-5 mt-5 mb-5">
+      
+      <h1>Get In touch!</h1>
+      <div class="offset-1 col-10 col-xl-10 py-5 text-center">
+        <p>If you would like to know more about me or if you have a work opportunity for me, please get in touch by sending me an email.
+        </p>
+      </div>
+
+      <form class="form"
+      action="https://formspree.io/xjvaonle"
+      method="POST">
+        
+      <input type="text" name="_gotcha" style="display:none" />
+
+        <div class="form-group write">
+          <input type="text" class="form-control" id="exampleFormControlInput1" name="name" placeholder="your name">
+        </div>
+        <div class="form-group write">
+          <input type="text" class="form-control" id="exampleFormControlInput1" name="_replyto" placeholder="your e-mail">
+        </div>
+        <div class="form-group text write">
+          <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="your message"></textarea>
+        </div>
+
+      <div class=" offset-2 col-9 offset-xl-5 col-xl-6 mt-5">
+        <button type="submit" class="button b3">send!</button>
+      </div>
+    </form>
+  </div>
+
 
   <footer class=" foot mt-5 mb-5">
     <div class="container-fluid">
       <br>
-      <div class="row mt-3">
+      <div class="row mt-3 ">
         <!--Start social media icons -->
-        <div class=" col-sm-10 col-xl-4 all-icons mb-3">
+        <div class="all-icon mb-3 col-12  col-xl-8">
           <div class="icon">
             <a href="https://www.linkedin.com/in/sharon-ratshilaya-2838a3195/"><i class=" fa fa-github"></i></a>
           </div>
@@ -109,13 +142,14 @@
             <a href="mailto:sharonratshilaya12@gmail.com"><i class=" fa fa-envelope"></i></a>
           </div>
           <div class="icon tel">
-            <a href="tel:+27729957954"><i class=" fa fa-phone"></i></a></div>
+            <a href="tel:+27729957954"><i class=" fa fa-phone"></i></a>
           </div>
+        </div>
   
-    <br><br>
-    <p class="ff">copyright 2020, made by <strong class="ft">Full Name</strong></p>
-      <br><br><br><br>
-
+        <div class="ff mb-5 col-12 col-xl-12 " >
+          <p> <small>copyright 2020, made by</small> <strong class="ft">Sharon</strong></p>
+        </div>
+      </div>
     </div>
   </footer>
 
