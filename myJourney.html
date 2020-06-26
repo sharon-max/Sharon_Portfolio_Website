@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/StyleSheet.css">
 
     <!-- fontsawesome icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="Assets/fontawesome/css/all.min.css">
     
     <!-- <link rel="stylesheet" href="Assets/fontawesome/css/all.min.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
@@ -30,23 +30,23 @@
       <!--Start social media icons -->
       <div class=" col-sm-10 col-xl-4 all-icons">
         <div class="icon">
-        <a href="https://www.linkedin.com/in/sharon-ratshilaya-2838a3195/"><i class=" fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sharon-ratshilaya-2838a3195/"><i class=" fab fa-github"></i></a>
         </div>
         <div class="icon">
-          <a href="https://sharon-max.github.io/Sharon_Portfolio_Website/"><i class=" fa fa-linkedin"></i></a>
+          <a href="https://sharon-max.github.io/Sharon_Portfolio_Website/"><i class="fab fa-linkedin-in"></i></a>
         </div>
         <div class="icon">
-          <a href="mailto:sharonratshilaya12@gmail.com"><i class=" fa fa-envelope"></i></a>
+          <a href="mailto:sharonratshilaya12@gmail.com"><i class=" far fa-envelope"></i></a>
         </div>
         <div class="icon tel">
-          <a href="tel:+27729957954"><i class=" fa fa-phone"></i></a></div>
+          <a href="tel:+27729957954"><i class=" fas fa-phone"></i></a></div>
       </div>
       <!-- End social media icons -->
 
       <!-- start mobile menu button -->
       <div col-2 >
         <div class="menu-icon icon">
-          <i class="fa fa-bars" style="font-size:60px;cursor:pointer" onclick="openNav()"></i>
+          <i class="fas fa-bars" style="font-size:60px;cursor:pointer" onclick="openNav()"></i>
         </div>
       </div>
       <!-- end mobile menu button -->
@@ -62,11 +62,30 @@
   <!--Start navigation for Overlay -->
   <div class="container-fluid">
     <div id="myNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times icon"></i></a>
+
+      <!-- icons -->
+      <div class=" col-sm-10 col-xl-4 mt-5">
+        <div class="icon">
+        <a href="https://www.linkedin.com/in/sharon-ratshilaya-2838a3195/"><i class=" fab fa-github"></i></a>
+        </div>
+        <div class="icon">
+          <a href="https://sharon-max.github.io/Sharon_Portfolio_Website/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="icon">
+          <a href="mailto:sharonratshilaya12@gmail.com"><i class=" far fa-envelope"></i></a>
+        </div>
+        <div class="icon tel">
+          <a href="tel:+27729957954"><i class=" fas fa-phone"></i></a></div>
+      </div>
+
+      <!-- close button -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times icon"></i></a>
+
+      <!-- links -->
       <div class="overlay-content">
         <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="aboutMe.html">about me</a>
-        <a class="nav-link" href="journey.html">journey</a>
+        <a class="nav-link" href="myJourney.html">journey</a>
         <a class="nav-link" href="resume.html">resume</a>
         <a class="nav-link" href="getInTouch.html">get in touch</a>
       </div>
@@ -91,63 +110,70 @@
     </div>
   </div>
 <!-- End desktop navbar links -->
- <!-- Desktop content -->
 
-<div class="col-12 col-xl-12 ">
-    <div class="col-12 text-center mt-5 mb-5">
-        <h1 class="resume">My Journey at ADA</h1>
-    </div>
+<div class="container-fluid text-center my-5">
+  <h1>My Journey at ADA</h1>
 </div>
 
-<div class="container-fluid col-12 col-xl-12 dark-grey py-5 mt-5">
-    <div class="row">
-        <div class="col-sm-12 col-xl-5 mt-5 mb-5">
-          <h2>What is ADA?</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates quasi quia iusto, quae, accusantium odio sequi voluptatum modi est, qui ullam libero ducimus aut! Dolorem nostrum reprehenderit corporis in obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium magnam officia deleniti expedita, odio fugiat voluptatibus. Eveniet at cum, harum omnis assumenda vel corporis voluptas quae, voluptate culpa veniam et?
-          </p>
-          <br>
-          <h2>How I was selected</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates quasi quia iusto, quae, accusantium odio sequi voluptatum modi est, qui ullam libero ducimus aut! Dolorem nostrum reprehenderit corporis in obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium magnam officia deleniti expedita, odio fugiat voluptatibus. Eveniet at cum, harum omnis assumenda vel corporis voluptas quae, voluptate culpa veniam et?
-          </p>
-        </div>
+<div class="container-fluid dark-grey py-5">
+  <div class="row">
+    <div class="col-12 col-xl-5 mt-5 p-5">
+      <h2>What is ADA?</h2>
+      <p>ADA, named after Ada Lovelace (the first female coder), is a non-profit programme which aims to educate young women of colour to become Front-End Developers and join the tech industry. ADA provides an immersive, mentored, fully-funded web development education to young, African, women.</p>
 
-        <div class="col-sm-12 offset-xl-1 col-xl-5">
-          <h2>My Coding Journey</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates quasi quia iusto, quae, accusantium odio sequi voluptatum modi est, qui ullam libero ducimus aut! Dolorem nostrum reprehenderit corporis in obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium magnam officia deleniti expedita, odio fugiat voluptatibus. Eveniet at cum, harum omnis assumenda vel corporis voluptas quae, voluptate culpa veniam et?
-          <br>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem nostrum quod accusamus sint, nemo, ab blanditiis, repellendus omnis iste dolorem officia. Rem architecto doloribus inventore laborum illum maiores ipsa nulla.
-          </p>
-          </div>
-        </div>
-      </div>
+      <p>ADA's mission is to empower. They give young, African women the tools and confidence to become successful game-changers in the field of technology by providing them with immersive, mentored, fully-funded Front-End Development education.</p>
+      <br><br>
+      
+      <h2>How I was selected</h2>
+      <p>The African Developers Academy had limited capacity in its first ever year, and so had to be rigorous in their testing and eventual selection of the student body of 2019/2020. This meant that students had to apply first through Harambe, where they completed a series of aptitude tests to make sure that they had what it takes to be a web developer.</p>
 
+      <p>There were 500 applications, 100 selected candidates through Harambe and only 12 spots. This means that only 2% of applicants would make it through.</p>
 
-<footer class=" foot mt-5 mb-5">
-  <div class="container-fluid">
-    <br>
-    <div class="row mt-3 ">
-      <!--Start social media icons -->
-      <div class="all-icon mb-3 col-12  col-xl-8">
-        <div class="icon">
-          <a href="https://www.linkedin.com/in/sharon-ratshilaya-2838a3195/"><i class=" fa fa-github"></i></a>
-        </div>
-        <div class="icon">
-          <a href="https://sharon-max.github.io/Sharon_Portfolio_Website/"><i class=" fa fa-linkedin"></i></a>
-        </div>
-        <div class="icon">
-          <a href="mailto:sharonratshilaya12@gmail.com"><i class=" fa fa-envelope"></i></a>
-        </div>
-        <div class="icon tel">
-          <a href="tel:+27729957954"><i class=" fa fa-phone"></i></a>
-        </div>
-      </div>
+      <p>All of the 100 selected candidates were invited to take part in challenges hosted by ADA which put them to the test - checking for resilience, strength of character, attitude and of course ability. The women who made it through proved themselves in many ways, and continued to do so throughout their studies</p>
+    </div>
 
-      <div class="ff mb-5 col-12 col-xl-12 " >
-        <p> <small>copyright 2020, made by</small> <strong class="ft">Sharon</strong></p>
-      </div>
+    <div class="col-12 offset-xl-1 col-xl-5 mt-5 p-5">
+      <h2>My Coding Journey</h2>
+      <br>
+      <p>One of the things that really struck me was that I had very little experience with computers. The fact that I went to a public school,  where we never learned computer literacy and I didnt’ have any computers at home while I was growing up, left me swimming in the deep end when I started at ADA.</p>
+
+      <p>On the first day, the 3 lecturers told us that we would be learning HTML, CSS and JavaScript - and I was at a loss. However, soon it became clear to me that I could learn this, that I had the aptitude to code and with practice I also started gaining confidence. Learning HTML opened my eyes to possibilities of coding, but it was really CSS that helped me fall in love with Front-End development. I started seeing my potential as a coding professional and I had never been so excited. </p>
+
+      <p>Soon we were introduced to JavaScript and my boundaries were pushed even further, as I learned I started falling in love. Every day I learned to love coding more and more.</p>
+
+      <p>I hope to continue this path, continue to grow and push myself. I am eternally grateful for the opportunity and to Laura, Kate and Andy (my lecturers at ADA) who helped me at every step.</p>
+
     </div>
   </div>
-</footer>
+</div>
+
+<!-- footer section -->
+  <footer class=" foot my-5">
+    <div class="container-fluid">
+      <br>
+      <div class="row mt-3 ">
+        <!--Start social media icons -->
+        <div class="all-icon mb-3 col-12  col-xl-12 text-center">
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/sharon-ratshilaya-2838a3195/"><i class=" fab fa-github"></i></a>
+          </div>
+          <div class="icon">
+            <a href="https://sharon-max.github.io/Sharon_Portfolio_Website/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <div class="icon">
+            <a href="mailto:sharonratshilaya12@gmail.com"><i class=" far fa-envelope"></i></a>
+          </div>
+          <div class="icon tel">
+            <a href="tel:+27729957954"><i class=" fas fa-phone"></i></a>
+          </div>
+        </div>
+  
+        <div class="ff mb-5 col-12 col-xl-12 text-center" >
+          <p> <small>copyright 2020, made by</small> <strong class="ft">Sharon</strong></p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
     <!-- js -->
     <script src="js/myJs.js"></script>

@@ -286,18 +286,18 @@ hr{
  }
 
  .testimonial-img{
-    width: 70%;
+    width: 80%;
 }
 
 .orange-block{
     background: #eb5e28;
     height: 250px;
-    width: 70%;
+    width: 80%;
 }
 
-/* .orange-block p{
-    font-size: 2.3em;
-} */
+.orange-block p{
+    color: white;
+}
 
 .orange-block a i{
     color: white;
@@ -336,6 +336,7 @@ form{
 }
 .form-group input::placeholder, .form-group textarea::placeholder {
     color: white;
+    font-size: 2.5em;
 }
 .form-group input:focus,.form-group textarea:focus {
     background-color: grey;
@@ -343,55 +344,6 @@ form{
     color: white;
 }
 
-  /* testimonals section */
-.TestimonalsDiv{
-    width: 90vw;
-    height: 235vh;
-    margin: auto;
-    text-align: center;
-    background: rgb(41, 40, 40); 
-  }
-  .card{
-    background: rgb(41, 40, 40); 
-    border-radius: 0;
-    border-width: 0;
-  }
-.TestimonalsHeading{
-      margin-top: 15px;
-      font-weight: 400;
-      opacity: 1;
-  }
-  .TestimonalsContent{
-      font-size: 14px;
-      font-weight: 250;
-      line-height: 18px;
-      text-align: justify;
-      text-size-adjust: 2px;
-    
-  }
-  .TestimonalsContactText{
-      font-size: 16px;
-      text-align: center;
-  }
-  .TestimonalsDivs{
-    margin-bottom: 20px;
-}
-  .ContactDiv{
-      width: 100%;
-      height: 8%;
-      background-color:#eb5e28 ;
-      color: white;
-  }
-  a{
-    color: white;
-  }
-  a:hover{
-      color:#f7931e;
-  }
-  .TestimonalImage{
-    width: 100%;
-    height: 20vh;
-  }
 
 /* footer section */
  .foot{
@@ -478,7 +430,7 @@ form{
 
     p{
         font-weight: 300;
-        font-size: 0.8em ;
+        font-size: 1em ;
     }
 
     /* general styles */
@@ -552,24 +504,11 @@ form{
 
  .devBox h2{
     color: black;
-    margin-left: 12em;
+    margin-left: 4em;
     margin-top: 0.5em;
  }
 
- .devI1 i{
-    text-align: center;
-    color: black;
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    border: solid 3px white;
-    background:white;
-    font-size: 30px;
-    padding-top: 0.4em;
-
-}
 .devIcon i{
-    text-align: center;
     color: black;
     width: 2em;
     height: 2em;
@@ -582,6 +521,7 @@ form{
 .devIcon.icon-white i{
     background: white!important;
     border: solid 3px white;
+    margin-left: 12em;
 }
 
 /* .Junior{
@@ -811,7 +751,7 @@ form{
     /* start footer */
 
     .all-icon{
-        left: 25em;
+        left: 17em;
     }
 
     .ff{
