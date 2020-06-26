@@ -232,12 +232,20 @@ hr{
 
  /*about me section second page*/
  .devIcon i{
-     font-size: 2em;
-     background: black;
-     border: 1px solid black;
-     border-radius: 50%;
-     width: 50px;
- }
+    text-align: center;
+    color: black;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: solid 3px orange;
+    background: orange;
+    font-size: 60px;
+    padding-top: 0.4em;
+    /* font-size: 30px;
+    
+    
+    margin-left: 10px;  */
+    }
 
 
  /* End about me section  */
@@ -467,7 +475,7 @@ form{
 
     p{
         font-weight: 300;
-        font-size: 1em ;
+        font-size: 0.8em ;
     }
 
     /* general styles */
@@ -535,17 +543,39 @@ form{
 }
 
  /*about me section second page*/
- .orangeRed{
-    height: 10vh;
-    width: 70vw;
+ .devBox{
+    background: orangered;
+ }
+
+ .devBox h2{
+    color: black;
+    margin-left: 12em;
+    margin-top: 0.5em;
+ }
+
+ .devI1 i{
+    text-align: center;
+    color: black;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: solid 3px white;
+    background:white;
+    font-size: 30px;
+    padding-top: 0.4em;
+
 }
 .devIcon i{
-    font-size: 2em;
-    background: black;
-    border: 1px solid black;
+    text-align: center;
+    color: black;
+    width: 2em;
+    height: 2em;
     border-radius: 50%;
-    width: 50px;
-}
+    border: solid 3px orange;
+    background: orange;
+    font-size: 30px;
+    padding-top: 0.4em;
+    }
 
 /* .Junior{
     margin-bottom: 2em;
@@ -715,7 +745,7 @@ form{
     
     .orange-block{
         background: #eb5e28;
-        height: 150px;
+        height: 110px;
         width: 100%;
     }
     
@@ -726,7 +756,7 @@ form{
     .orange-block a i{
         color: white;
         font-size: 1.5em;
-        margin-top: 30px;
+        margin-top: 0.5px;
     }
     .orange-block p{
         margin-top: 10px;

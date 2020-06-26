@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/StyleSheet.css">
 
     <!-- fontsawesome icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Assets/fontawesome/css/all.min.css">
     
     <!-- <link rel="stylesheet" href="Assets/fontawesome/css/all.min.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
@@ -30,16 +30,16 @@
       <!--Start social media icons -->
       <div class=" col-sm-10 col-xl-4 all-icons">
         <div class="icon">
-        <a href="https://www.linkedin.com/in/sharon-ratshilaya-2838a3195/"><i class=" fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sharon-ratshilaya-2838a3195/"><i class="fab fa-github"></i></a>
         </div>
         <div class="icon">
-          <a href="https://sharon-max.github.io/Sharon_Portfolio_Website/"><i class=" fa fa-linkedin"></i></a>
+          <a href="https://sharon-max.github.io/Sharon_Portfolio_Website/"><i class="fab fa-linkedin"></i></a>
         </div>
         <div class="icon">
-          <a href="mailto:sharonratshilaya12@gmail.com"><i class=" fa fa-envelope"></i></a>
+          <a href="mailto:sharonratshilaya12@gmail.com"><i class="far fa-envelope"></i></a>
         </div>
         <div class="icon tel">
-          <a href="tel:+27729957954"><i class=" fa fa-phone"></i></a></div>
+          <a href="tel:+27729957954"><i class="fas fa-phone"></i></a></div>
       </div>
       <!-- End social media icons -->
 
@@ -62,13 +62,32 @@
   <!--Start navigation for Overlay -->
   <div class="container-fluid">
     <div id="myNav" class="overlay">
+
+      <!-- icons -->
+      <div class=" col-sm-10 col-xl-4 mt-5">
+        <div class="icon">
+        <a href="https://www.linkedin.com/in/sharon-ratshilaya-2838a3195/"><i class=" fa fa-github"></i></a>
+        </div>
+        <div class="icon">
+          <a href="https://sharon-max.github.io/Sharon_Portfolio_Website/"><i class=" fa fa-linkedin"></i></a>
+        </div>
+        <div class="icon">
+          <a href="mailto:sharonratshilaya12@gmail.com"><i class=" fa fa-envelope"></i></a>
+        </div>
+        <div class="icon tel">
+          <a href="tel:+27729957954"><i class=" fa fa-phone"></i></a></div>
+      </div>
+
+      <!-- close button -->
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times icon"></i></a>
+
+      <!-- links -->
       <div class="overlay-content">
         <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="aboutMe.html">about me</a>
         <a class="nav-link" href="myJourney.html">journey</a>
         <a class="nav-link" href="resume.html">resume</a>
-        <a class="nav-link" href="getInTouch.html" class="active">get in touch</a>
+        <a class="nav-link" href="getInTouch.html">get in touch</a>
       </div>
     </div>
   </div>
@@ -80,11 +99,11 @@
     <div class="row">
       <div class="col-12 text-center">
         <ul class="desktop-nav">
-          <li><a href="http://127.0.0.1:5500/index.html" >home</a></li>
-            <li><a href="http://127.0.0.1:5500/aboutMe.html">about</a></li>
-            <li><a href="#">journey</a></li>
-            <li><a href="#">resume</a></li>
-            <li><a href="#" class="active">get in touch</a></li>
+          <li><a href="index.html">home</a></li>
+            <li><a href="aboutMe.html">about</a></li>
+            <li><a href="myJourney.html">journey</a></li>
+            <li><a href="resume.html">resume</a></li>
+            <li><a href="getInTouch.html" class="active">get in touch</a></li>
           </ul>
         </ul>
       </div>
@@ -92,40 +111,44 @@
   </div>
 <!-- End desktop navbar links -->
 
-<!-- start get in touch section -->
-
+  <!-- start get in touch section -->
  
-    <div class="container dark-grey col-12 col-xl-12 py-5 mt-5 mb-5">
-      
-      <h1>Get In touch!</h1>
-      <div class="offset-1 col-10 col-xl-10 py-5 text-center">
-        <p>If you would like to know more about me or if you have a work opportunity for me, please get in touch by sending me an email.
-        </p>
+  <div class="container-fluid dark-grey py-5 my-5">
+      <div class="row">
+        <div class="col-12">
+          <h1>Get In touch!</h1>
+        </div>
+        <div class="col-12 col-lg-8 mx-auto py-5 text-center">
+          <p>If you would like to know more about me or if you have a work opportunity for me, please get in touch by sending me an email.
+          </p>
+        </div>
+
+        <div class="col-12 col-lg-8 mx-auto">
+          <form class="form" action="https://formspree.io/xjvaonle" method="POST">
+            
+            <input type="text" name="_gotcha" style="display:none" />
+
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleFormControlInput1" name="name" placeholder="your name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleFormControlInput1" name="_replyto" placeholder="your e-mail">
+              </div>
+              <div class="form-group">
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="your message"></textarea>
+              </div>
+
+              <div class="text-center mt-5">
+                <button type="submit" class="button b3">send!</button>
+              </div>
+          </form>
+        </div>
       </div>
-
-      <form class="form"
-      action="https://formspree.io/xjvaonle"
-      method="POST">
-        
-      <input type="text" name="_gotcha" style="display:none" />
-
-        <div class="form-group write">
-          <input type="text" class="form-control" id="exampleFormControlInput1" name="name" placeholder="your name">
-        </div>
-        <div class="form-group write">
-          <input type="text" class="form-control" id="exampleFormControlInput1" name="_replyto" placeholder="your e-mail">
-        </div>
-        <div class="form-group text write">
-          <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="your message"></textarea>
-        </div>
-
-      <div class=" offset-2 col-9 offset-xl-5 col-xl-6 mt-5">
-        <button type="submit" class="button b3">send!</button>
-      </div>
-    </form>
   </div>
 
+  <!-- end get in touch section -->
 
+<!-- footer section -->
   <footer class=" foot mt-5 mb-5">
     <div class="container-fluid">
       <br>
@@ -133,20 +156,20 @@
         <!--Start social media icons -->
         <div class="all-icon mb-3 col-12  col-xl-8">
           <div class="icon">
-            <a href="https://www.linkedin.com/in/sharon-ratshilaya-2838a3195/"><i class=" fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sharon-ratshilaya-2838a3195/"><i class="fab fa-github"></i></a>
           </div>
           <div class="icon">
-            <a href="https://sharon-max.github.io/Sharon_Portfolio_Website/"><i class=" fa fa-linkedin"></i></a>
+            <a href="https://sharon-max.github.io/Sharon_Portfolio_Website/"><i class="fab fa-linkedin"></i></a>
           </div>
           <div class="icon">
-            <a href="mailto:sharonratshilaya12@gmail.com"><i class=" fa fa-envelope"></i></a>
+            <a href="mailto:sharonratshilaya12@gmail.com"><i class="far fa-envelope"></i></a>
           </div>
           <div class="icon tel">
-            <a href="tel:+27729957954"><i class=" fa fa-phone"></i></a>
+            <a href="tel:+27729957954"><i class="fas fa-phone"></i></a>
           </div>
         </div>
   
-        <div class="ff mb-5 col-12 col-xl-12 " >
+        <div class="ff mb-5 col-12 col-xl-11 " >
           <p> <small>copyright 2020, made by</small> <strong class="ft">Sharon</strong></p>
         </div>
       </div>
