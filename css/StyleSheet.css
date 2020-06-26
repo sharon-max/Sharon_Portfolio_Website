@@ -10,7 +10,7 @@ body{
 
 p{
     font-weight: 300;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 h1{
@@ -37,6 +37,9 @@ h2{
 h2.grt1{
     font-weight: 200;
 }
+h3{
+    font-size: 2em;
+}
 
 hr{
     width: 90%;
@@ -46,6 +49,7 @@ hr{
 
 .dark-grey{
     background: #333333;
+    overflow: hidden;
 }
 
 .button{
@@ -241,11 +245,7 @@ hr{
     background: orange;
     font-size: 60px;
     padding-top: 0.4em;
-    /* font-size: 30px;
-    
-    
-    margin-left: 10px;  */
-    }
+}
 
 
  /* End about me section  */
@@ -472,6 +472,9 @@ form{
     h2{
         font-size: 2em;
     }
+    h3{
+        font-size: 1em;
+    }
 
     p{
         font-weight: 300;
@@ -575,7 +578,11 @@ form{
     background: orange;
     font-size: 30px;
     padding-top: 0.4em;
-    }
+}
+.devIcon.icon-white i{
+    background: white!important;
+    border: solid 3px white;
+}
 
 /* .Junior{
     margin-bottom: 2em;
